@@ -1,0 +1,27 @@
+.container{
+    width: 734px;
+    height: 47px;
+    background-color: var(--elemColor);
+    display: flex;
+    align-items: center;
+    border-radius: 21px;
+    padding-left: 14px;
+    padding-right: 14px;
+    -webkit-box-shadow: 1px -1px 8px 0px rgba(234, 234, 234, 1);
+    -moz-box-shadow: 1px -1px 8px 0px rgba(234, 234, 234, 1);
+    box-shadow: 1px -1px 8px 0px rgba(234, 234, 234, 1);
+
+}
+
+.input{
+    width: 80%;
+    background-color: transparent;
+    color: var(--TextColor);
+    margin-left: 6px;
+    font-size: 14px;
+    border: none;
+    appearance: none;
+    outline: none;
+    resize: none;
+}
+

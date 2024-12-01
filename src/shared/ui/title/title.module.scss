@@ -1,0 +1,25 @@
+.container{
+    width: 100%;
+    height: 17px ;
+    color: var(--subTextColor);
+    display:flex;
+    align-items: center;
+    
+}
+.borderSmall{
+    width: 25px;
+    height: 2px;
+    background-color: var(--borderColor)
+}
+.borderBig{
+    width: 100%;
+    height: 2px;
+    background-color: var(--borderColor)
+}
+
+.text{
+    margin-left: 8px ;
+    margin-right: 8px;
+    font-size: 14px;
+    width: 190px;
+}

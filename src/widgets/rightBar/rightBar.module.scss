@@ -1,0 +1,24 @@
+.container{
+    background-color: var(--secondColor);
+    width: 312px;
+    height: 100vh;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-left: 1px solid var(--borderColor);
+}
+
+.userContainer{
+    width: 100%;
+    height: 170px;
+    
+    
+}
+
+.version{
+    color: var(--subTitle);
+    display: flex;
+    justify-content: right;
+    width: 100%;
+   padding-top: 5px;
+    
+}

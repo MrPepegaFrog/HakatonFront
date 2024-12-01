@@ -1,0 +1,28 @@
+:root {
+    --mainColor: #15181B;
+    --secondColor:  #1D2125;
+    --textColor: #FFFFFF;
+    --subTextColor: #5B5E5F;
+    --subTitle: #737576;
+    --borderColor: #3E3F40;
+    --elemColor: #2F3337;
+    --buttonColor: #5E6062;
+    --buttonHover:#394047;
+    
+}
+
+body{
+    background-color: var(--mainColor);
+    height: 100vh;
+    color: var(--textColor);
+  
+}
+
+
+*{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgb(0 0 0 / 0%);
+}

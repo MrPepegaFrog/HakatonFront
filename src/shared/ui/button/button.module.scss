@@ -1,0 +1,19 @@
+.button{
+    width: 35px ;
+    height: 35px;
+    border: none;
+    appearance: none;
+    outline: none;
+    background-color: var(--buttonColor);
+    border-radius: 6px;
+    margin-left: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover{
+    background-color:  var(--buttonHover); 
+    transition: all 1s;
+    }
+}
+
