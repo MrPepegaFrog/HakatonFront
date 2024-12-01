@@ -1,11 +1,11 @@
 import PrompInput from '../../shared/ui/prompInput/PromptInput';
 import style from './controllBlock.module.scss'
 interface IControllBlockProps {
-    addToHistory: (content: string) => void;
+    addMessage: (content: string) => void;
 }
-const ControllBlock = ({addToHistory}: IControllBlockProps) => {
+const ControllBlock = ({addMessage}: IControllBlockProps) => {
     return <div className={style.container}>
-        <PrompInput addToHistory={addToHistory}/>
+        <PrompInput addMessage={addMessage}/>
     </div>
 }
 

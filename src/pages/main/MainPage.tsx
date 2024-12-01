@@ -16,7 +16,10 @@ const MainPage = () => {
     const addMessage = (content: string,  isSent: boolean = true) => {
         const newMessage = { date: new Date().toLocaleString(), content, isSent };
         setMessages(prevMessages => [...prevMessages, newMessage]);
-        addToHistory(content);
+        if(isSent){
+            addToHistory(content);
+        }
+       
     };
 
    
@@ -32,7 +35,7 @@ const MainPage = () => {
                 <ChatField messages={messages}/>
             )}
             
-            <ControllBlock addToHistory={addMessage}/>
+            <ControllBlock addMessage={addMessage}/>
         </div>
         <RightBar history={history}/>
     </div>
